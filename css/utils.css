@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.centre_allign {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: small;
+
+}
+
+.button {
+    height: 19.67px;
+    width: 48px;
+    margin: 0px 20px 0 -9px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: var(--main-bg-color);
+    color: white;
+
+
+}
+
+.btn {
+    height: 22px;
+    width: 45px;
+    margin: 28px 8px -8px 259px;
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+    /* font-family: 'Roboto', sans-serif; */
+    text-decoration: overline;
+    background-color: var(--main-bg-color);
+    color: white;
+
+}
+
+.btn :hover {
+    font-weight: bolder;
+    color: black;
+    font-family: "Playfair Display", serif;
+    /* font-family: 'Roboto', sans-serif; */
+    text-decoration-line: overline;
+}
